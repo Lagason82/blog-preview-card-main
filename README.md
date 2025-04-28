@@ -17,7 +17,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-Really enjoying the challenge so far, refreshing all the information gathered before.
+- Really enjoying the challenge so far, refreshing all the information gathered before.
+- a took the liberty to add @media for a smaller resolution, as when I am checking the the final result before the @media, i found out the card really small. adjustment need to be made to ensure every word is readable wether it on big screen or on smaller one.
 
 ### The challenge
 

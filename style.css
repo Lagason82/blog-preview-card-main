@@ -59,7 +59,7 @@ h1:hover {
 
 p  {
     font-family: Figtree, Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--text-font-color);
 }
 
@@ -68,12 +68,13 @@ p  {
     display: flex;
     flex-direction: column;
     background-color: var(--card-background-color);
-    max-width: 26.1rem;
+    /* max-width: 26.1rem; */
+    max-width: 30.1rem;
     border: 2px solid black;
     border-radius: 20px;
     padding: 1.5rem;
     box-shadow: 10px 10px black;
-    margin: 1rem;
+    margin: 1.5rem;
     
 }
 
@@ -88,6 +89,7 @@ p  {
     max-width: max-content;
     border-radius: 5px;
     padding: 5px 10px;
+    font-size: 1.2rem;
 }
 .date {
     color: var(--header-font-color);
@@ -115,6 +117,15 @@ p  {
 .username {
     font-weight: 800;
     color: var(--header-font-color);
+}
+
+@media (max-width:28.3rem) {
+    p  {
+        font-size: 1rem;
+    }
+    .cta {
+        font-size: 1rem;
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
