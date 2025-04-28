@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+/* @font-face {
+    font-family: Figtree-Medium;
+    src: url(/assets/fonts/static/Figtree-Medium.ttf) format(ttf);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: Figtree-Extrabold;
+    src: url(/assets/fonts/static/Figtree-ExtraBold.ttf) format(ttf);
+    font-weight: 800;
+} */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Body-color */
+    --body-color:hsl(47, 88%, 63%);
+    /*Card Body*/
+    --card-background-color:hsl(0, 0%, 100%);
+    /*header-font-color */
+    --header-font-color:hsl(0, 0%, 7%);
+    /* --header-font-family: Figtree-Extrabold;
+    --text-font-family: Figtree-Medium; */
+    /*text-font-color */
+    --text-font-color:hsl(0, 0%, 42%);
+    /*card-shadow color */
+    --card-shadow-color:hsl(0, 0%, 7%);
+}
+
+body{
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1,.cta {
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+    color: var(--header-font-color);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+h1:hover {
+    color: var(--body-color);
+    cursor: pointer;
+}
+
+p  {
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--text-font-color);
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background-color);
+    max-width: 26.1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 10px 10px black;
+    margin: 1rem;
+    
+}
+
+.image {
+    border-radius: 20px; 
+    margin-bottom: 2rem;
+}
+
+.cta {
+    background-color: var(--body-color);
+    text-decoration: none;
+    max-width: max-content;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.date {
+    color: var(--header-font-color);
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.profile-picture {
+    width: 10%;
+}
+
+.username {
+    font-weight: 800;
+    color: var(--header-font-color);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
